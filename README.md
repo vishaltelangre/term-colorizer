@@ -1,7 +1,7 @@
 Term::Colorizer
 ===============
 
-[![Build Status](https://travis-ci.org/vishaltelangre/term-colorizer.png)](https://travis-ci.org/vishaltelangre/term-colorizer)
+[![Build Status](https://travis-ci.org/vishaltelangre/term-colorizer.png?branch=master)](https://travis-ci.org/vishaltelangre/term-colorizer)
 
 Print colorized strings on terminal (Useful for printing fancy logs)
 
