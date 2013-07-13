@@ -7,6 +7,18 @@ Print colorized strings on terminal (Useful for printing fancy logs)
 
 ## Usage
 
+Install gem by using following command:
+
+    gem install term-colorizer
+
+or add it to your Gemfile as:
+
+```ruby
+gem "term-colorizer"
+```
+
+and use it as:
+
 ``` ruby
 "Duck can quack".green
 # => "\e[32mDuck can quack\e[0m"
