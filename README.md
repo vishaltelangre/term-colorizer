@@ -1,6 +1,7 @@
 Term::Colorizer
 ===============
 
+[![Gem Version](https://badge.fury.io/rb/term-colorizer.png)](http://badge.fury.io/rb/term-colorizer)
 [![Build Status](https://travis-ci.org/vishaltelangre/term-colorizer.png?branch=master)](https://travis-ci.org/vishaltelangre/term-colorizer)
 
 Print colorized strings on terminal (Useful for printing fancy logs)
