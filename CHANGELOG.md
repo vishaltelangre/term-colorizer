@@ -1,6 +1,10 @@
-### 0.1.2 (Next Release)
+### 0.1.3 (Next Release)
 
 * Your contribution here.
+
+### 0.1.2 (7/22/2013)
+
+* Created a hash for terminal color, and used it inside method_missing to define color methods on the fly when called. - [@vishaltelangre](https://github.com/vishaltelangre).
 
 ### 0.1.1 (7/13/2013)
 
