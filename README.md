@@ -15,7 +15,7 @@ Install gem by using following command:
 or add it to your Gemfile as:
 
 ```ruby
-gem "term-colorizer"
+gem 'term-colorizer', require: 'term-colorizer'
 ```
 
 and use it as:
