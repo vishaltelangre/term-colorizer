@@ -26,11 +26,12 @@ and use it as:
 
 puts "Wow, that's really " + "hot!".bright_red
 # guess what it will do?
+```
 
-# Below are the bonus methods for your strings, which you can use as demonstrated above:
-
-# black, red, green, yellow, blue, magenta, cyan, white, bright_black, bright_red,
-# bright_green,bright_yellow, bright_blue, bright_magenta, bright_cyan, bright_white
+To know avaialable color methods:
+```ruby
+"Hello world!".color_methods
+# => [:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white, :bright_black, :bright_red, :bright_green, :bright_yellow, :bright_blue, :bright_magenta, :bright_cyan, :bright_white]
 ```
 
 :)

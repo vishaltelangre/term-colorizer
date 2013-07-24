@@ -1,6 +1,10 @@
-### 0.1.3 (Next Release)
+### 0.1.4 (Next Release)
 
 * Your contribution here.
+
+### 0.1.3 (7/24/2013)
+
+* Added `color_methods` method to see avialable color methods. Also added more rspec test cases - [@vishaltelangre](https://github.com/vishaltelangre).
 
 ### 0.1.2 (7/22/2013)
 
