@@ -1,6 +1,14 @@
-### 0.1.4 (Next Release)
+### 0.2.1 (Next Release)
 
 * Your contribution here.
+
+### 0.2.0 (8/25/2013)
+
+* Added background color methods, see available background_methods using `bg_color_methods` - [@vishaltelangre](https://github.com/vishaltelangre).
+* Added bonus methods such as `underline`, and `strikethrough`. - [@vishaltelangre](https://github.com/vishaltelangre).
+* Added reset methods such as `no_color`, `no_bg_color`, `no_underline`, `no_strikethrough`, `plain_text`, `reset_fancyness` - [@vishaltelangre](https://github.com/vishaltelangre).
+* Added `fancy_color_methods` which is alias of `term_colorizer_methods` to see all public methods availed by term-colorizer gem. - [@vishaltelangre](https://github.com/vishaltelangre).
+* Added a lot many test cases for testing scenarios caused by implementation of new features. Run `rspec` command to run the tests. - [@vishaltelangre](https://github.com/vishaltelangre).
 
 ### 0.1.3 (7/24/2013)
 
