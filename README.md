@@ -29,24 +29,31 @@ puts "Wow, that's really".underline + " cool ".black.strikethrough + "hot!".bg_r
 ```
 
 To see all accessible methods provided by term-colorizer, use:
+
 ```ruby
 >> "Hello".term_colorizer_methods
 => [:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white, :bright_black, :bright_red, :bright_green, :bright_yellow, :bright_blue, :bright_magenta, :bright_cyan, :bright_white, :bg_black, :bg_red, :bg_green, :bg_yellow, :bg_blue, :bg_magenta, :bg_cyan, :bg_white, :underline, :strikethrough, :term_colorizer_methods, :fancy_color_methods, :no_underline, :no_strikethrough, :no_color, :no_bg_color, :plain_text, :reset_fancyness]
 ```
 
+
 To see available color methods only:
+
 ```ruby
 >> "Hello".color_methods
 => [:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white]
 ```
 
+
 To see available bright (bold) color methods only:
+
 ```ruby
 >> "Hello".bright_color_methods
 => [:bright_black, :bright_red, :bright_green, :bright_yellow, :bright_blue, :bright_magenta, :bright_cyan, :bright_white]
 ```
 
+
 To see available background color methods only:
+
 ```ruby
 >> "Hello".bg_color_methods
 => [:bg_black, :bg_red, :bg_green, :bg_yellow, :bg_blue, :bg_magenta, :bg_cyan, :bg_white]
@@ -54,7 +61,7 @@ To see available background color methods only:
 
 ## Screenshots
 
-![term-colorizer-screenshot-1!](screenshot_1.png)
+![term-colorizer-screenshot-1!](https://raw.github.com/vishaltelangre/term-colorizer/master/screenshot_1.png)
 
 And, for sake -- also added bunch of reset methods, viz. `plain_text`, `reset_fancyness`, `no_color`, `no_bg_color`, `no_underline`, `no_strikethrough`.
 You can use 'em as:
@@ -64,7 +71,7 @@ You can use 'em as:
 => "That's it, boy!"
 ```
 
-![term-colorizer-screenshot-2!](screenshot_2.png)
+![term-colorizer-screenshot-2!](https://raw.github.com/vishaltelangre/term-colorizer/master/screenshot_2.png)
 
 :yum:
 
