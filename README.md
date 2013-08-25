@@ -34,21 +34,39 @@ To see all accessible methods provided by term-colorizer, use:
 => [:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white, :bright_black, :bright_red, :bright_green, :bright_yellow, :bright_blue, :bright_magenta, :bright_cyan, :bright_white, :bg_black, :bg_red, :bg_green, :bg_yellow, :bg_blue, :bg_magenta, :bg_cyan, :bg_white, :underline, :strikethrough, :term_colorizer_methods, :fancy_color_methods, :no_underline, :no_strikethrough, :no_color, :no_bg_color, :plain_text, :reset_fancyness]
 ```
 
+To see available color methods only:
+```ruby
+>> "Hello".color_methods
+=> [:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white]
+```
+
+To see available bright (bold) color methods only:
+```ruby
+>> "Hello".bright_color_methods
+=> [:bright_black, :bright_red, :bright_green, :bright_yellow, :bright_blue, :bright_magenta, :bright_cyan, :bright_white]
+```
+
+To see available background color methods only:
+```ruby
+>> "Hello".bg_color_methods
+=> [:bg_black, :bg_red, :bg_green, :bg_yellow, :bg_blue, :bg_magenta, :bg_cyan, :bg_white]
+```
+
 ## Screenshots
 
 ![term-colorizer-screenshot-1!](screenshot_1.png)
 
-and, for sake:
+And, for sake -- also added bunch of reset methods, viz. `plain_text`, `reset_fancyness`, `no_color`, `no_bg_color`, `no_underline`, `no_strikethrough`.
+You can use 'em as:
 
 ```ruby
->> "That's it, boy!".green.bg_yellow.plain_text # resets fancy stuff
+>> "That's it, boy!".green.bg_yellow.plain_text
 => "That's it, boy!"
-# look at above `term_colorizer_methods` for more such methods
 ```
 
 ![term-colorizer-screenshot-2!](screenshot_2.png)
 
-:)
+:yum:
 
 ## Contributing
 
