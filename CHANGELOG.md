@@ -1,9 +1,15 @@
-### 0.2.1 (Next Release)
+### 0.2.2 (Next Release)
 
 * Your contribution here.
 
+### 0.2.1 (8/25/2013)
+
+* Nothing special added, just updated readme! ;-) - [@vishaltelangre](https://github.com/vishaltelangre).
+* Stable release till date.
+
 ### 0.2.0 (8/25/2013)
 
+* NOTE: This version had been mistakenly yanked by me.
 * Added background color methods, see available background_methods using `bg_color_methods` - [@vishaltelangre](https://github.com/vishaltelangre).
 * Added bonus methods such as `underline`, and `strikethrough`. - [@vishaltelangre](https://github.com/vishaltelangre).
 * Added reset methods such as `no_color`, `no_bg_color`, `no_underline`, `no_strikethrough`, `plain_text`, `reset_fancyness` - [@vishaltelangre](https://github.com/vishaltelangre).
